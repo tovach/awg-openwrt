@@ -19,7 +19,7 @@ install_awg_packages() {
     BASE_URL="https://github.com/Slava-Shchipunov/awg-openwrt/releases/download/"
 
     # Определяем версию AWG протокола (2.0 для OpenWRT >= 23.05.6 и >= 24.10.3)
-    AWG_VERSION="1.0"
+    AWG_VERSION="2.0"
     MAJOR_VERSION=$(echo "$VERSION" | cut -d '.' -f 1)
     MINOR_VERSION=$(echo "$VERSION" | cut -d '.' -f 2)
     PATCH_VERSION=$(echo "$VERSION" | cut -d '.' -f 3)
